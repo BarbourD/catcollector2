@@ -99,7 +99,7 @@ def add_photo(request, cat_id):
             print("Error uploading photo: ", error)
             return redirect('detail', cat_id=cat_id)
     # print an error message
-    return redirect('detail', cat_id-cat_id)
+    return redirect('detail', cat_id=cat_id)
     # redirect user to the origin page
 
     """

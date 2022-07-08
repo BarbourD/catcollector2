@@ -100,8 +100,7 @@
     </div>
     <!-- Available toys will come after this line -->
   </div>
-
-  <div class="col s6">
+    <div class="col s6">
     <h3>Available Toys</h3>
     {% if toys.count %}
       {% for toy in toys.all %}
@@ -124,7 +123,7 @@
     {% else %}
       <h5>{{cat.name}} Already Has All Toys Available</h5>
     {% endif %}
-  </div>
+    </div>
 
 <script>
   var dateEl = document.getElementById("id_date");
