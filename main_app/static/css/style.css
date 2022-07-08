@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    /* these take up all the available space between the header and the footer */
+    /* flex: 1 0 auto; */
+    flex: grow 1;
+}
+
+footer {
+    padding-top: 0;
+    text-align: right;
+}
